@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		370A947D182575060062E25D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 370A947C182575050062E25D /* Cocoa.framework */; };
+		370A947F182575060062E25D /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 370A947E182575060062E25D /* SpriteKit.framework */; };
+		370A9489182575060062E25D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 370A9487182575060062E25D /* InfoPlist.strings */; };
+		370A948B182575060062E25D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 370A948A182575060062E25D /* main.m */; };
+		370A948F182575060062E25D /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 370A948D182575060062E25D /* Credits.rtf */; };
+		370A9491182575060062E25D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 370A9490182575060062E25D /* MainMenu.xib */; };
+		370A9493182575060062E25D /* FTPMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 370A9492182575060062E25D /* FTPMyScene.m */; };
+		370A9496182575060062E25D /* FTPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 370A9495182575060062E25D /* FTPAppDelegate.m */; };
+		370A949B182575060062E25D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 370A949A182575060062E25D /* Images.xcassets */; };
+		370A94A2182575060062E25D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 370A94A1182575060062E25D /* XCTest.framework */; };
+		370A94A3182575060062E25D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 370A947C182575050062E25D /* Cocoa.framework */; };
+		370A94AB182575060062E25D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 370A94A9182575060062E25D /* InfoPlist.strings */; };
+		37D8F38918258B25003129FD /* FTPMySceneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D8F38818258B25003129FD /* FTPMySceneTests.m */; };
+		37D8F38B18259261003129FD /* HeroImages.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 37D8F38A18259261003129FD /* HeroImages.atlas */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		370A94A4182575060062E25D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 370A9471182575050062E25D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 370A9478182575050062E25D;
+			remoteInfo = Fruitopia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		370A9479182575050062E25D /* Fruitopia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fruitopia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		370A947C182575050062E25D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		370A947E182575060062E25D /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		370A9481182575060062E25D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		370A9482182575060062E25D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		370A9483182575060062E25D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		370A9486182575060062E25D /* Fruitopia-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Fruitopia-Info.plist"; sourceTree = "<group>"; };
+		370A9488182575060062E25D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		370A948A182575060062E25D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		370A948C182575060062E25D /* Fruitopia-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Fruitopia-Prefix.pch"; sourceTree = "<group>"; };
+		370A948E182575060062E25D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		370A9490182575060062E25D /* MainMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		370A9492182575060062E25D /* FTPMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTPMyScene.m; sourceTree = "<group>"; };
+		370A9494182575060062E25D /* FTPMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTPMyScene.h; sourceTree = "<group>"; };
+		370A9495182575060062E25D /* FTPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTPAppDelegate.m; sourceTree = "<group>"; };
+		370A9497182575060062E25D /* FTPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTPAppDelegate.h; sourceTree = "<group>"; };
+		370A949A182575060062E25D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		370A94A0182575060062E25D /* FruitopiaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FruitopiaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		370A94A1182575060062E25D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		370A94A8182575060062E25D /* FruitopiaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FruitopiaTests-Info.plist"; sourceTree = "<group>"; };
+		370A94AA182575060062E25D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		37D8F38818258B25003129FD /* FTPMySceneTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTPMySceneTests.m; sourceTree = "<group>"; };
+		37D8F38A18259261003129FD /* HeroImages.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = HeroImages.atlas; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		370A9476182575050062E25D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				370A947F182575060062E25D /* SpriteKit.framework in Frameworks */,
+				370A947D182575060062E25D /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		370A949D182575060062E25D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				370A94A3182575060062E25D /* Cocoa.framework in Frameworks */,
+				370A94A2182575060062E25D /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		370A9470182575050062E25D = {
+			isa = PBXGroup;
+			children = (
+				370A9484182575060062E25D /* Fruitopia */,
+				370A94A6182575060062E25D /* FruitopiaTests */,
+				370A947B182575050062E25D /* Frameworks */,
+				370A947A182575050062E25D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		370A947A182575050062E25D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				370A9479182575050062E25D /* Fruitopia.app */,
+				370A94A0182575060062E25D /* FruitopiaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		370A947B182575050062E25D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				370A947C182575050062E25D /* Cocoa.framework */,
+				370A947E182575060062E25D /* SpriteKit.framework */,
+				370A94A1182575060062E25D /* XCTest.framework */,
+				370A9480182575060062E25D /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		370A9480182575060062E25D /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				370A9481182575060062E25D /* AppKit.framework */,
+				370A9482182575060062E25D /* CoreData.framework */,
+				370A9483182575060062E25D /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		370A9484182575060062E25D /* Fruitopia */ = {
+			isa = PBXGroup;
+			children = (
+				370A9490182575060062E25D /* MainMenu.xib */,
+				370A9494182575060062E25D /* FTPMyScene.h */,
+				370A9492182575060062E25D /* FTPMyScene.m */,
+				37D8F38818258B25003129FD /* FTPMySceneTests.m */,
+				370A9497182575060062E25D /* FTPAppDelegate.h */,
+				370A9495182575060062E25D /* FTPAppDelegate.m */,
+				37D8F38A18259261003129FD /* HeroImages.atlas */,
+				370A949A182575060062E25D /* Images.xcassets */,
+				370A9485182575060062E25D /* Supporting Files */,
+			);
+			path = Fruitopia;
+			sourceTree = "<group>";
+		};
+		370A9485182575060062E25D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				370A9486182575060062E25D /* Fruitopia-Info.plist */,
+				370A9487182575060062E25D /* InfoPlist.strings */,
+				370A948A182575060062E25D /* main.m */,
+				370A948C182575060062E25D /* Fruitopia-Prefix.pch */,
+				370A948D182575060062E25D /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		370A94A6182575060062E25D /* FruitopiaTests */ = {
+			isa = PBXGroup;
+			children = (
+				370A94A7182575060062E25D /* Supporting Files */,
+			);
+			path = FruitopiaTests;
+			sourceTree = "<group>";
+		};
+		370A94A7182575060062E25D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				370A94A8182575060062E25D /* FruitopiaTests-Info.plist */,
+				370A94A9182575060062E25D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		370A9478182575050062E25D /* Fruitopia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 370A94B0182575060062E25D /* Build configuration list for PBXNativeTarget "Fruitopia" */;
+			buildPhases = (
+				370A9475182575050062E25D /* Sources */,
+				370A9476182575050062E25D /* Frameworks */,
+				370A9477182575050062E25D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fruitopia;
+			productName = Fruitopia;
+			productReference = 370A9479182575050062E25D /* Fruitopia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		370A949F182575060062E25D /* FruitopiaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 370A94B3182575060062E25D /* Build configuration list for PBXNativeTarget "FruitopiaTests" */;
+			buildPhases = (
+				370A949C182575060062E25D /* Sources */,
+				370A949D182575060062E25D /* Frameworks */,
+				370A949E182575060062E25D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				370A94A5182575060062E25D /* PBXTargetDependency */,
+			);
+			name = FruitopiaTests;
+			productName = FruitopiaTests;
+			productReference = 370A94A0182575060062E25D /* FruitopiaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		370A9471182575050062E25D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FTP;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Philippe Casgrain";
+				TargetAttributes = {
+					370A949F182575060062E25D = {
+						TestTargetID = 370A9478182575050062E25D;
+					};
+				};
+			};
+			buildConfigurationList = 370A9474182575050062E25D /* Build configuration list for PBXProject "Fruitopia" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 370A9470182575050062E25D;
+			productRefGroup = 370A947A182575050062E25D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				370A9478182575050062E25D /* Fruitopia */,
+				370A949F182575060062E25D /* FruitopiaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		370A9477182575050062E25D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				370A949B182575060062E25D /* Images.xcassets in Resources */,
+				370A9489182575060062E25D /* InfoPlist.strings in Resources */,
+				37D8F38B18259261003129FD /* HeroImages.atlas in Resources */,
+				370A948F182575060062E25D /* Credits.rtf in Resources */,
+				370A9491182575060062E25D /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		370A949E182575060062E25D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				370A94AB182575060062E25D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		370A9475182575050062E25D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				370A948B182575060062E25D /* main.m in Sources */,
+				370A9496182575060062E25D /* FTPAppDelegate.m in Sources */,
+				370A9493182575060062E25D /* FTPMyScene.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		370A949C182575060062E25D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37D8F38918258B25003129FD /* FTPMySceneTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		370A94A5182575060062E25D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 370A9478182575050062E25D /* Fruitopia */;
+			targetProxy = 370A94A4182575060062E25D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		370A9487182575060062E25D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				370A9488182575060062E25D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		370A948D182575060062E25D /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				370A948E182575060062E25D /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		370A94A9182575060062E25D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				370A94AA182575060062E25D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		370A94AE182575060062E25D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		370A94AF182575060062E25D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		370A94B1182575060062E25D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fruitopia/Fruitopia-Prefix.pch";
+				INFOPLIST_FILE = "Fruitopia/Fruitopia-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		370A94B2182575060062E25D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fruitopia/Fruitopia-Prefix.pch";
+				INFOPLIST_FILE = "Fruitopia/Fruitopia-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		370A94B4182575060062E25D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Fruitopia.app/Contents/MacOS/Fruitopia";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fruitopia/Fruitopia-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FruitopiaTests/FruitopiaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		370A94B5182575060062E25D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Fruitopia.app/Contents/MacOS/Fruitopia";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fruitopia/Fruitopia-Prefix.pch";
+				INFOPLIST_FILE = "FruitopiaTests/FruitopiaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		370A9474182575050062E25D /* Build configuration list for PBXProject "Fruitopia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				370A94AE182575060062E25D /* Debug */,
+				370A94AF182575060062E25D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		370A94B0182575060062E25D /* Build configuration list for PBXNativeTarget "Fruitopia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				370A94B1182575060062E25D /* Debug */,
+				370A94B2182575060062E25D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		370A94B3182575060062E25D /* Build configuration list for PBXNativeTarget "FruitopiaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				370A94B4182575060062E25D /* Debug */,
+				370A94B5182575060062E25D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 370A9471182575050062E25D /* Project object */;
+}
